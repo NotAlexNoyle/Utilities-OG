@@ -1,7 +1,7 @@
 plugins {
     id("java") // Tell gradle this is a java project.
     id("java-library") // Import helper for source-based libraries.
-    id("com.diffplug.spotless") version "7.0.2"
+    id("com.diffplug.spotless") version "6.23.3"
     id("com.gradleup.shadow") version "8.3.6" // Import shadow API.
     eclipse // Import eclipse plugin for IDE integration.
 }
